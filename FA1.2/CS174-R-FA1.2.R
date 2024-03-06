@@ -1,4 +1,5 @@
 
+##### DATA LOADING #####
 library(readr)
 library(ggplot)
 
@@ -16,5 +17,16 @@ model <- lm(bank_data$y ~ bank_data$balance + bank_data$duration, data=bank_data
 summary(model)
 
 plot(model)
+
+##### DATA PREPROCESSING #####
+
+
+##### EXPLORATORY DATA ANALYSIS #####
+
+##### MODELLING #####
+
+##### TESTING #####
+
+##### EVALUATION #####
 
 
