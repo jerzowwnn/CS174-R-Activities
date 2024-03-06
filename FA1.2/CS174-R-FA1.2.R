@@ -2,7 +2,7 @@
 library(readr)
 library(ggplot)
 
-setwd("C:\\Users\\Justin\\Desktop\\R-Programming")
+setwd("FA1.2\\")
 bank_data<- read_delim("bank-full.csv", delim = ";")
 
 head(bank_data)
